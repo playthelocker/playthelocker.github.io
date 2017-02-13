@@ -30,6 +30,10 @@ a{
   color: white;
 }
 
+a:hover{
+  color: #F4D08B;
+}
+
 .gallery {
     -moz-column-width: 18em;
     -webkit-column-width: 18rem;
