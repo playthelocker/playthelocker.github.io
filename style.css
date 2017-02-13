@@ -20,10 +20,17 @@ h1 {
 
 h2{
 	margin-bottom: 0;
-	font-family: 'Averia Libre', cursive;
+/*	font-family: 'Averia Libre', cursive;*/
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
 }
 
-article {
+a{
+  /*text-decoration: none;*/
+  color: white;
+}
+
+.gallery {
     -moz-column-width: 18em;
     -webkit-column-width: 18rem;
     column-width: 18rem;
@@ -56,4 +63,22 @@ article {
     width: 100%;
     /*background: #efefef;*/
     position:relative;
+}
+
+.container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.split-text-big {
+  display: table-cell;
+  width: 60%;
+  padding: 1rem;
+}
+
+.split-text-small {
+  display: table-cell;
+  width: 40%;
+  padding: 1rem;
 }
